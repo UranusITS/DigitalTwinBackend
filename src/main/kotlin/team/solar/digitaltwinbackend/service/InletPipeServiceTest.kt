@@ -1,6 +1,6 @@
-package team.solar.digitaltwinbackground.service
+package team.solar.digitaltwinbackend.service
 
-import team.solar.digitaltwinbackground.entity.InletPipe
+import team.solar.digitaltwinbackend.entity.InletPipe
 
 interface InletPipeServiceTest {
     fun findById(id: Int?): InletPipe?

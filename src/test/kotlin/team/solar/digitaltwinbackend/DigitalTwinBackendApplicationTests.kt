@@ -1,10 +1,10 @@
-package team.solar.digitaltwinbackground
+package team.solar.digitaltwinbackend
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class DigitalTwinBackgroundApplicationTests {
+class DigitalTwinBackendApplicationTests {
 
     @Test
     fun contextLoads() {

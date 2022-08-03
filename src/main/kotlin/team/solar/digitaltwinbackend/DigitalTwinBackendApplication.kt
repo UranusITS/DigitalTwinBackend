@@ -1,4 +1,4 @@
-package team.solar.digitaltwinbackground
+package team.solar.digitaltwinbackend
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -10,10 +10,10 @@ import javax.servlet.ServletResponse
 import javax.servlet.http.HttpServletResponse
 
 @SpringBootApplication
-class DigitalTwinBackgroundApplication
+class DigitalTwinBackendApplication
 
 fun main(args: Array<String>) {
-    runApplication<DigitalTwinBackgroundApplication>(*args)
+    runApplication<DigitalTwinBackendApplication>(*args)
 }
 
 @Configuration

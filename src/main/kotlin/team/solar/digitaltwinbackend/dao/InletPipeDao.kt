@@ -1,6 +1,6 @@
-package team.solar.digitaltwinbackground.dao
+package team.solar.digitaltwinbackend.dao
 
-import team.solar.digitaltwinbackground.entity.InletPipe
+import team.solar.digitaltwinbackend.entity.InletPipe
 
 interface InletPipeDao {
     fun findById(id: Int?): InletPipe?

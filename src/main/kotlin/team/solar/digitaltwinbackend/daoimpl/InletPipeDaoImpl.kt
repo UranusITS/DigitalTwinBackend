@@ -1,9 +1,9 @@
-package team.solar.digitaltwinbackground.daoimpl
+package team.solar.digitaltwinbackend.daoimpl
 
 import org.springframework.stereotype.Repository
-import team.solar.digitaltwinbackground.dao.InletPipeDao
-import team.solar.digitaltwinbackground.entity.InletPipe
-import team.solar.digitaltwinbackground.repository.InletPipeRepository
+import team.solar.digitaltwinbackend.dao.InletPipeDao
+import team.solar.digitaltwinbackend.entity.InletPipe
+import team.solar.digitaltwinbackend.repository.InletPipeRepository
 
 @Repository
 class InletPipeDaoImpl(private val repo: InletPipeRepository) : InletPipeDao {

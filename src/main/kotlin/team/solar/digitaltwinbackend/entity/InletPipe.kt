@@ -1,4 +1,4 @@
-package team.solar.digitaltwinbackground.entity
+package team.solar.digitaltwinbackend.entity
 
 import org.hibernate.annotations.CreationTimestamp
 import java.sql.Timestamp
