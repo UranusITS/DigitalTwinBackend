@@ -4,18 +4,18 @@ import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
-import team.solar.digitaltwinbackend.entity.InletPipe
-import team.solar.digitaltwinbackend.servicetest.InletPipeServiceTest
+import team.solar.digitaltwinbackend.entity.Engine
+import team.solar.digitaltwinbackend.servicetest.EngineServiceTest
 
 @RestController
-@RequestMapping("/inlet-pipe")
-class InletPipeController(private val service: InletPipeServiceTest) {
-    @RequestMapping("/inlet-pipe")
+@RequestMapping("/engine")
+class EngineController(private val service: EngineServiceTest) {
+    @RequestMapping("/engine")
     fun findById(@RequestParam("id") id: Int) = service.findById(id)
 
     @RequestMapping("/latest")
     fun findLatest() = service.findLatest()
 
     @RequestMapping("/add")
-    fun add(@RequestBody inletPipe: InletPipe) = service.add(inletPipe)
+    fun add(@RequestBody engine: Engine) = service.add(engine)
 }

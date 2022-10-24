@@ -2,9 +2,9 @@ package team.solar.digitaltwinbackend.repository
 
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
-import team.solar.digitaltwinbackend.entity.InletPipe
+import team.solar.digitaltwinbackend.entity.Engine
 
 @Repository
-interface InletPipeRepository : JpaRepository<InletPipe, Int> {
-    fun findById(id: Int?): InletPipe?
+interface EngineRepository : JpaRepository<Engine, Int> {
+    fun findById(id: Int?): Engine?
 }

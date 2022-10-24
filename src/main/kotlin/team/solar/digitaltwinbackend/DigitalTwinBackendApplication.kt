@@ -1,6 +1,7 @@
 package team.solar.digitaltwinbackend
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
 import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Configuration
 import javax.servlet.Filter
@@ -9,7 +10,7 @@ import javax.servlet.ServletRequest
 import javax.servlet.ServletResponse
 import javax.servlet.http.HttpServletResponse
 
-@SpringBootApplication
+@SpringBootApplication(exclude = [SecurityAutoConfiguration::class])
 class DigitalTwinBackendApplication
 
 fun main(args: Array<String>) {
